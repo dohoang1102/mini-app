@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12A269" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Edicion" representedClassName="Edicion" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagenURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testDrive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="modelo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Modelo" inverseName="ediciones" inverseEntity="Modelo" syncable="YES"/>
+    </entity>
+    <entity name="Modelo" representedClassName="Modelo" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagenURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ediciones" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edicion" inverseName="modelo" inverseEntity="Edicion" syncable="YES"/>
+    </entity>
+    <entity name="Noticia" representedClassName="Noticia" syncable="YES">
+        <attribute name="categoria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pagina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paginaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resumen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Edicion" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Modelo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Noticia" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

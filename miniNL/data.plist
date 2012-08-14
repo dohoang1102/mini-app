@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Vitrinas</key>
+	<array>
+		<dict>
+			<key>nombre</key>
+			<string>BARRANQUILLA.</string>
+			<key>nombreCorto</key>
+			<string>B/QUILLA.</string>
+			<key>vitrinaInfo</key>
+			<string>Dirección vitrina: \nAv. Circunvalar entre Cras. 43 y 46\nTel:57.5.367 0100</string>
+			<key>nombreImagenVitrina</key>
+			<string>vitrina-barranquilla.png</string>
+			<key>nombreImagenEmpleado</key>
+			<string>empleado-barranquilla.jpeg</string>
+			<key>empleadoInfo</key>
+			<string>LO ATENDERÁ:MIGUEL LÓPEZ\nmiguelopez@miniquilla.com\ncel: 312 456 7872</string>
+		</dict>
+		<dict>
+			<key>nombre</key>
+			<string>MEDELLÍN.</string>
+			<key>nombreCorto</key>
+			<string>MEDELLÍN.</string>
+			<key>vitrinaInfo</key>
+			<string>Dirección vitrina: \nAv. Circunvalar entre Cras. 43 y 46\nTel:57.5.367 0100</string>
+			<key>nombreImagenVitrina</key>
+			<string>vitrina-barranquilla.jpeg</string>
+			<key>nombreImagenEmpleado</key>
+			<string>empleado-barranquilla.jpeg</string>
+			<key>empleadoInfo</key>
+			<string>LO ATENDERÁ:MIGUEL LÓPEZ\nmiguelopez@miniquilla.com\ncel: 312 456 7872</string>
+		</dict>
+		<dict>
+			<key>nombre</key>
+			<string>BARRANQUILLA</string>
+			<key>nombreCorto</key>
+			<string>B/QUILLA</string>
+			<key>vitrinaInfo</key>
+			<string>Dirección vitrina:\nAv. Circunvalar entre Cras. 43 y 46\nTel:57.5.367 0100</string>
+			<key>nombreImagenVitrina</key>
+			<string>vitrina-barranquilla.jpeg</string>
+			<key>nombreImagenEmpleado</key>
+			<string>empleado-barranquilla.jpeg</string>
+			<key>empleadoInfo</key>
+			<string>LO ATENDERÁ:MIGUEL LÓPEZ\nmiguelopez@miniquilla.com\ncel: 312 456 7872</string>
+		</dict>
+		<dict>
+			<key>nombre</key>
+			<string>BARRANQUILLA</string>
+			<key>nombreCorto</key>
+			<string>B/QUILLA</string>
+			<key>vitrinaInfo</key>
+			<string>Dirección vitrina:\nAv. Circunvalar entre Cras. 43 y 46\nTel:57.5.367 0100</string>
+			<key>nombreImagenVitrina</key>
+			<string>vitrina-barranquilla.jpeg</string>
+			<key>nombreImagenEmpleado</key>
+			<string>empleado-barranquilla.jpeg</string>
+			<key>empleadoInfo</key>
+			<string>LO ATENDERÁ:MIGUEL LÓPEZ\nmiguelopez@miniquilla.com\ncel: 312 456 7872</string>
+		</dict>
+		<dict>
+			<key>nombre</key>
+			<string>BARRANQUILLA</string>
+			<key>nombreCorto</key>
+			<string>B/QUILLA</string>
+			<key>vitrinaInfo</key>
+			<string>Dirección vitrina:\nAv. Circunvalar entre Cras. 43 y 46\nTel:57.5.367 0100</string>
+			<key>nombreImagenVitrina</key>
+			<string>vitrina-barranquilla.jpeg</string>
+			<key>nombreImagenEmpleado</key>
+			<string>empleado-barranquilla.jpeg</string>
+			<key>empleadoInfo</key>
+			<string>LO ATENDERÁ:MIGUEL LÓPEZ\nmiguelopez@miniquilla.com\ncel: 312 456 7872</string>
+		</dict>
+	</array>
+	<key>FamiliaTimestamp</key>
+	<string></string>
+	<key>NoticiasTimestamp</key>
+	<string></string>
+</dict>
+</plist>
